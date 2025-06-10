@@ -23,6 +23,7 @@ class Caya:
         
     def show_dream(self):
         print("I want to travel the world.")
+        buffer()
 
     def show_hobby(self):
         print("I love singing.")
