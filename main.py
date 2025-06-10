@@ -1,9 +1,9 @@
 #Import modules from pyqtfive package
-#TODO (ARGUELLES): Import module from pyqtfive package
-#TODO (CAYA): Import module from pyqtfive package
-#TODO (CONDINO): Import module from pyqtfive package
-#TODO (CORDOVA): Import module from pyqtfive package
-#TODO (GUTIERREZ): Import module from pyqtfive package
+#TODO (ARGUELLES): Import a class from a module inside a package
+#TODO (CAYA): Import a class from a module inside a package
+#TODO (CONDINO): Import a class from a module inside a package
+#TODO (CORDOVA): Import a class from a module inside a package
+#TODO (GUTIERREZ): Import a class from a module inside a package
 
 while True:
     print("=== Team Member Menu ===")
