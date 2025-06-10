@@ -1,8 +1,8 @@
 from pyqtfive.utils import buffer, clear_screen
 
 class Condino:
-    EXIT_OPTION = "0"
-    UNSET_OPTION = "-1"
+    EXIT_OPTION = 0
+    UNSET_OPTION = -1
 
     def __init__(self):
         self.name = "Ciara Marie Condino"
@@ -19,10 +19,10 @@ class Condino:
         print(f"My section is {self.section}.")
 
     def show_hobby(self):
-        print("My hobby is playing online games")
+        print("My hobby is playing online games.")
 
     def favorite_language(self):
-        print("Python because of Sir Steven.")
+        print("Python is my favorite programming language.")
 
     def menu(self):
         clear_screen()
@@ -40,7 +40,7 @@ class Condino:
         print("3. Show Section")
         print("4. Hobby")
         print("5. Favorite Language")
-        print("6. Back to Main Menu")
+        print("0. Exit")
 
         return int(input("Enter your choice: "))
 
@@ -58,7 +58,7 @@ class Condino:
             case 5:
                 self.favorite_language()
             case 0:
-                pass  # Exit to main menu
+                pass  
             case _:
                 print("Invalid choice. Try again.")
-                buffer()
+        buffer()
