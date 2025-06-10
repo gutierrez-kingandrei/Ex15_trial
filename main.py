@@ -3,7 +3,9 @@
 #TODO (CAYA): Import a class from a module inside a package
 from pyqtfive.condino import Condino 
 #TODO (CORDOVA): Import a class from a module inside a package
-#TODO (GUTIERREZ): Import a class from a module inside a package
+from pyqtfive.gutierrez import Gutierrez
+
+gutierrez = Gutierrez()
 
 while True:
     print("=== Team Member Menu ===")
@@ -29,8 +31,7 @@ while True:
             #TODO (CORDOVA): Call the appropriate function here
             pass 
         case "5":
-            #TODO (GUTIERREZ): Call the appropriate function here
-            pass
+            gutierrez.menu()
         case "6":
             break   
         case _:
