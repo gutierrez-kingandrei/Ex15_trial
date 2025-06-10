@@ -2,11 +2,12 @@
 #TODO (ARGUELLES): Import a class from a module inside a package
 #TODO (CAYA): Import a class from a module inside a package
 from pyqtfive.condino import Condino 
-#TODO (CORDOVA): Import a class from a module inside a package
+from pyqtfive.cordova import Cordova
 from pyqtfive.gutierrez import Gutierrez
 
 gutierrez = Gutierrez()
 condino = Condino()
+cordova = Cordova()
 
 while True:
     print("=== Team Member Menu ===")
@@ -29,7 +30,7 @@ while True:
         case "3":
             condino.menu()
         case "4":
-            #TODO (CORDOVA): Call the appropriate function here
+            cordova.menu()
             pass 
         case "5":
             gutierrez.menu()
