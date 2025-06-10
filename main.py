@@ -6,6 +6,7 @@ from pyqtfive.condino import Condino
 from pyqtfive.gutierrez import Gutierrez
 
 gutierrez = Gutierrez()
+condino = Condino()
 
 while True:
     print("=== Team Member Menu ===")
@@ -26,7 +27,7 @@ while True:
             #TODO (CAYA): Call the appropriate function here
             pass 
         case "3":
-            Condino.menu()
+            condino.menu()
         case "4":
             #TODO (CORDOVA): Call the appropriate function here
             pass 
