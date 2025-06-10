@@ -31,7 +31,7 @@ def display_choice():
     print("4 - Aron Stephen Cordova")
     print("5 - King Andrei Gutierrez")
     print("0 - Exit")
-    
+        
     return int(input("\nSelect a team member: "))
 
 def process_choice(choice):
