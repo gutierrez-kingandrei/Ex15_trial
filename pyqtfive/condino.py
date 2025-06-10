@@ -1,6 +1,7 @@
+from pyqtfive.utils import buffer, clear_screen
 class Condino:
     def __init__(self):
-        self.name = "Condino, Ciara Marie M."
+        self.name = "Condino, Ciara Marie M"
         self.age = 20
         self.section = "BSIT 2-1"
 
@@ -33,15 +34,21 @@ class Condino:
             match choice:
                 case "1":
                     self.greet()
+                    buffer()
                 case "2":
                     self.show_age()
+                    buffer()
                 case "3":
                     self.show_section()
+                    buffer()
                 case "4":
                     self.hobby()
+                    buffer()
                 case "5":
                     self.favorite_language()
+                    buffer()
                 case "6":
                     break   
                 case _:
                     print("Invalid choice. Please try again.")
+                    buffer()

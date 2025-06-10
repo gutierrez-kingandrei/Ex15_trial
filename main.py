@@ -1,7 +1,7 @@
 #Import modules from pyqtfive package
 #TODO (ARGUELLES): Import a class from a module inside a package
 #TODO (CAYA): Import a class from a module inside a package
-from pyqtfive.condino import Condino
+from pyqtfive.condino import Condino 
 #TODO (CORDOVA): Import a class from a module inside a package
 #TODO (GUTIERREZ): Import a class from a module inside a package
 
@@ -24,8 +24,7 @@ while True:
             #TODO (CAYA): Call the appropriate function here
             pass 
         case "3":
-            Condino().menu()
-            pass
+            Condino.menu()
         case "4":
             #TODO (CORDOVA): Call the appropriate function here
             pass 
