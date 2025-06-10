@@ -1,7 +1,7 @@
 #Import modules from pyqtfive package
 from pyqtfive.utils import clear_screen, buffer
-#TODO (ARGUELLES): Import a class from a module inside a package
-#TODO (CAYA): Import a class from a module inside a package
+from pyqtfive.arguelles import Arguelles
+from pyqtfive.caya import Caya
 from pyqtfive.condino import Condino 
 from pyqtfive.cordova import Cordova
 from pyqtfive.gutierrez import Gutierrez
@@ -12,6 +12,8 @@ UNSET_OPTION = -1
 gutierrez = Gutierrez()
 condino = Condino()
 cordova = Cordova()
+arguelles = Arguelles()
+caya = Caya()
 
 def menu():
     clear_screen()
@@ -30,18 +32,16 @@ def display_choice():
     print("4 - Aron Stephen Cordova")
     print("5 - King Andrei Gutierrez")
     print("0 - Exit")
-    
+        
     return int(input("\nSelect a team member: "))
 
 def process_choice(choice):
     clear_screen()   
     match choice:
         case 1:
-            #TODO (ARGUELLES): Call the appropriate function here
-            pass
+            arguelles.menu()
         case 2:
-            #TODO (CAYA): Call the appropriate function here
-            pass 
+            caya.menu()
         case 3:
             condino.menu()
         case 4:
