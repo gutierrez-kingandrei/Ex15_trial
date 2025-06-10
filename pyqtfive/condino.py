@@ -38,9 +38,9 @@ class Condino:
         print("1. Greet")
         print("2. Show Age")
         print("3. Show Section")
-        print("4. Hobby")
-        print("5. Favorite Language")
-        print("0. Exit")
+        print("4. Show Hobby")
+        print("5. Show Favorite Language")
+        print("0. Back to Main Menu")
 
         return int(input("Enter your choice: "))
 
