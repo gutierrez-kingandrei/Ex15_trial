@@ -1,7 +1,7 @@
 #Import modules from pyqtfive package
 from pyqtfive.utils import clear_screen, buffer
 from pyqtfive.arguelles import Arguelles
-#TODO (CAYA): Import a class from a module inside a package
+from pyqtfive.caya import Caya
 from pyqtfive.condino import Condino 
 from pyqtfive.cordova import Cordova
 from pyqtfive.gutierrez import Gutierrez
@@ -13,6 +13,7 @@ gutierrez = Gutierrez()
 condino = Condino()
 cordova = Cordova()
 arguelles = Arguelles()
+caya = Caya()
 
 def menu():
     clear_screen()
@@ -40,8 +41,7 @@ def process_choice(choice):
         case 1:
             arguelles.menu()
         case 2:
-            #TODO (CAYA): Call the appropriate function here
-            pass 
+            caya.menu()
         case 3:
             condino.menu()
         case 4:
